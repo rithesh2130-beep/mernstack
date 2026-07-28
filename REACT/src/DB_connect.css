@@ -1,0 +1,127 @@
+.db-connect-container {
+    max-width: 500px;
+    margin: 3rem auto;
+    padding: 2.5rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.db-connect-container h1 {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.db-connect-message {
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.95rem;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.db-connect-message.success {
+    background-color: #c6f6d5;
+    color: #22543d;
+    border: 1px solid #9ae6b4;
+}
+
+.db-connect-message.failure,
+.db-connect-message.error {
+    background-color: #fed7d7;
+    color: #822727;
+    border: 1px solid #feb2b2;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.db-connect-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.db-connect-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.db-connect-form-group label {
+    font-weight: 600;
+    color: #4a5568;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.db-connect-form-group input,
+.db-connect-form-group textarea {
+    padding: 0.85rem 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color: #f7fafc;
+    color: #2d3748;
+    font-family: inherit;
+}
+
+.db-connect-form-group input:focus,
+.db-connect-form-group textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.25);
+}
+
+.db-connect-form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.db-connect-button {
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background-color: #4299e1;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 0.025em;
+}
+
+.db-connect-button:hover:not(:disabled) {
+    background-color: #3182ce;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px rgba(49, 130, 206, 0.25);
+}
+
+.db-connect-button:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.db-connect-button:disabled {
+    background-color: #a0aec0;
+    cursor: not-allowed;
+    opacity: 0.7;
+}

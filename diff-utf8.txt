@@ -1,0 +1,30 @@
+﻿commit 8073649995a03207d6d54112b6995a191da65eff
+Author: rithesh2130-beep <rithesh2130@gmail.com>
+Date:   Sat Jul 18 23:53:33 2026 +0530
+
+    Update React code: forms, layout, formatting
+
+JS/salaaar.js
+REACT/.gitignore
+REACT/README.md
+REACT/eslint.config.js
+REACT/index.html
+REACT/package.json
+REACT/public/favicon.svg
+REACT/public/icons.svg
+REACT/src/App.jsx
+REACT/src/Buttons.jsx
+REACT/src/Child.jsx
+REACT/src/Components.jsx
+REACT/src/Count.css
+REACT/src/Count.jsx
+REACT/src/Forms.jsx
+REACT/src/GrandChild.jsx
+REACT/src/Parent.jsx
+REACT/src/UserContext.jsx
+REACT/src/assets/hero.png
+REACT/src/assets/react.svg
+REACT/src/assets/vite.svg
+REACT/src/forms.css
+REACT/src/main.jsx
+REACT/vite.config.js

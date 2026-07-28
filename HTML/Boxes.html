@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boxes</title>
+    <link rel="stylesheet" href="../CSS/flex.css">
+    
+</head>
+<body>
+    <div class ="container">
+        <div class="box">mango</div>
+        <div class="box">banana</div>
+        <div class="box">apple</div>
+        <div class="box">grape</div>
+    </div>
+
+    <div class="direction-pad">
+        <button class="direction-btn up" type="button">up</button>
+        <button class="direction-btn left" type="button">left</button>
+        <div class="center-box">box</div>
+        <button class="direction-btn right" type="button">right</button>
+        <button class="direction-btn down" type="button">down</button>
+    </div>
+    <p id="camera-status">Starting camera...</p>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="../JS/moves.js"></script>
+</body>
+</html>

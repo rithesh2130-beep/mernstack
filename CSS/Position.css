@@ -1,0 +1,47 @@
+form{
+    margin: 0.3cm 0.2cm 0.1cm 0.2cm;
+    border-style: groove;
+    border-width: 4px;
+    border-color: white gray red blue;
+    border-radius: 20px 80px 20px 80px;
+    padding: 0.6cm 0.4cm 0.2cm 0.4cm;
+    max-width: 560px;
+    background-color: #f5f9ff;
+}
+form label{
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 8px;
+    font-weight: 600;
+}
+form input,
+form button{
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"],
+form input[type="datetime-local"],
+form input[type="file"]{
+    display: block;
+    width: 100%;
+    max-width: 360px;
+    padding: 8px;
+    border: 1px solid #9aa8b7;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+form button{
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: 1px solid #607080;
+    background-color: #eaf2ff;
+}
+h1{
+    position:sticky;
+    top: 0;
+    
+}

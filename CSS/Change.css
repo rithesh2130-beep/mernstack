@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(78, 194, 70);
+    transition: background-color 5s 4s ease-in-out;
+}
+img:hover{
+    background-color: rgb(227, 84, 84);
+    transform:translate(20px,20px);
+    animation:moves 10s linear 3s 4;
+} 

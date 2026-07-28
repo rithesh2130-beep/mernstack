@@ -1,0 +1,51 @@
+﻿git : remote: error: 
+Trace: fef1cbfdf7cf0f9d
+85e9c45cef11e7af2d812b4
+c729d241dcf894c1a06f7a0
+c1        
+At line:1 char:1
++ git push origin main 
+2>&1 | Out-File 
+-Encoding utf8 
+d:\MERN_Stack\pus ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (remote: error   
+ : ...6f7a0c1          
+  :String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+remote: error: See 
+https://gh.io/lfs for 
+more information.      
+  
+remote: error: File 
+HTML/files/Screen 
+Recording 2024-12-13 
+211545.mp4 is 420.62 
+MB; this exceeds 
+GitHub's file size 
+limit of 100.00 MB     
+   
+remote: error: GH001: 
+Large files detected. 
+You may want to try 
+Git Large File Storage 
+- https://git-lfs.githu
+b.com.        
+To https://github.com/r
+ithesh2130-beep/mernsta
+ck.git
+ ! [remote rejected] 
+main -> main 
+(pre-receive hook 
+declined)
+error: failed to push 
+some refs to 'https://g
+ithub.com/rithesh2130-b
+eep/mernstack.git'

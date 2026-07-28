@@ -1,0 +1,79 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.form-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    /* Spaces out every element automatically */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: -8px;
+    /* Brings label closer to its input */
+}
+
+.form-input {
+    padding: 12px 15px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, .25);
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.radio-text {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.submit-btn {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+.submit-btn:hover {
+    background-color: #0b5ed7;
+}
+
+.submit-btn:active {
+    transform: scale(0.98);
+}

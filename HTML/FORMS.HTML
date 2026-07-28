@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Form</title>
+        
+    </head>
+    <body>
+        <div class="data" id="application">
+            <header id = 1>
+               <h1>Form</h1>
+            </header>
+            <main>
+               
+                <form action="submit.php" method="post" enctype="multipart/form-data" style="display:flex;flex-direction:column;gap:10px;max-width:420px;">
+                    <label for="name">Name:</label>
+                    <input id="name" type="text" name="name" id="name" placeholder="Enter your name">
+
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" id="email" placeholder="Enter your email">
+
+                    <label for="password">Password:</label>
+                    <input id="password" type="password" name="password" id="password" placeholder="Enter your password">
+
+                    <label for="number">Number:</label>
+                    <input id="number" type="number" name="number" id="number" placeholder="Enter your number">
+
+                    <label>Gender:</label>
+                    <div class="option-group" style="display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;">
+                        <input id="male" type="radio" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input id="female" type="radio" name="gender" value="female">
+                        <label for="female">Female</label>
+                        <input id="other" type="radio" name="gender" value="other">
+                        <label for="other">Other</label>
+                    </div>
+
+                    <label>Qualification:</label>
+                    <div class="option-group" style="display:flex;flex-wrap:wrap;align-items:center;gap:10px 14px;">
+                        <input class="qualification" id="10th" type="checkbox" name="qualification" value="10th">
+                        <label for="10th">10<sup>th</sup></label>
+                        <input class="qualification" id="12th" type="checkbox" name="qualification" value="12th">
+                        <label for="12th">12<sup>th</sup></label>
+                        <input class="qualification" id="diploma" type="checkbox" name="qualification" value="diploma">
+                        <label for="diploma">Diploma</label>
+                        <input class="qualification" id="degree" type="checkbox" name="qualification" value="degree">
+                        <label for="degree">Degree</label>
+                    </div>
+
+                    <label for="dob">D.O.B:</label>
+                    <input id="dob" type="datetime-local" name="dob" id="dob">
+
+                    <label for="image">Image:</label>
+                    <input id="image" type="file" name="image" id="image">
+
+                    <button type="button" onclick="show()">Submit</button>
+                    <div id="source" style="border:1px solid #ccc;padding:10px;margin-top:8px;white-space:pre-wrap;"></div>
+
+                </form>
+            
+            </main>
+            <footer>
+
+            </footer>
+
+        </div>
+        <script src="../JS/Script.js"></script>
+    </body>
+</html>

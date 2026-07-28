@@ -1,0 +1,48 @@
+p{
+    color: blue;
+    font-family: monospace;
+}
+body{
+    font-family: monospace;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 420px;
+}
+.option-group{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 14px;
+}
+#source{
+   font-size: large;
+  
+}
+.list{
+    color:chocolate;
+}
+th,td,tr{
+    border: 1px solid rgb(87, 41, 41);
+    border-style: inset;
+    font-size: large;
+    color:blue;
+
+}
+table{
+    color:rgb(87, 41, 41);
+    float:inherit;
+    padding: 10px;
+
+}
+li{
+    font-style:italic;
+    font-weight: bold;
+    text-align: justify;
+    width:auto;
+    background-image: linear-gradient(rgb(255, 255, 255),blue,red);
+    padding: 6px;
+    margin-bottom: 6px;
+}
